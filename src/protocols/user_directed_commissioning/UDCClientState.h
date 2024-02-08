@@ -56,8 +56,8 @@ enum class TargetAppCheckState : uint8_t
  */
 struct TargetAppInfo
 {
-    uint16_t vendorId  = 0;
-    uint16_t productId = 0;
+    uint16_t vendorId              = 0;
+    uint16_t productId             = 0;
     TargetAppCheckState checkState = TargetAppCheckState::kNotInitialized;
 };
 
@@ -121,8 +121,8 @@ public:
     {
         if (index < mNumTargetAppInfos)
         {
-            info.vendorId  = mTargetAppInfos[index].vendorId;
-            info.productId = mTargetAppInfos[index].productId;
+            info.vendorId   = mTargetAppInfos[index].vendorId;
+            info.productId  = mTargetAppInfos[index].productId;
             info.checkState = mTargetAppInfos[index].checkState;
             return true;
         }
@@ -144,8 +144,8 @@ public:
             // already at max
             return false;
         }
-        mTargetAppInfos[mNumTargetAppInfos].vendorId  = vid.vendorId;
-        mTargetAppInfos[mNumTargetAppInfos].productId = vid.productId;
+        mTargetAppInfos[mNumTargetAppInfos].vendorId   = vid.vendorId;
+        mTargetAppInfos[mNumTargetAppInfos].productId  = vid.productId;
         mTargetAppInfos[mNumTargetAppInfos].checkState = TargetAppCheckState::kNotInitialized;
         mNumTargetAppInfos++;
         return true;

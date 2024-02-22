@@ -329,6 +329,6 @@
 	url = https://github.com/Infineon/lwip-network-interface-integration.git
 	platforms = infineon
 [submodule "p6/cmsis"]
-	path = cmsis
+	path = third_party/infineon/psoc6/psoc6_sdk/libs/cmsis
 	url = https://github.com/Infineon/cmsis.git
 	platforms = infineon

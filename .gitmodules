@@ -157,6 +157,10 @@
 	path = third_party/infineon/psoc6/psoc6_sdk/libs/TARGET_CY8CKIT-062S2-43012
 	url = https://github.com/Infineon/TARGET_CY8CKIT-062S2-43012
 	platforms = infineon
+[submodule "p6/TARGET_CY8CEVAL-062S2-LAI-4373M2"]
+	path = third_party/infineon/psoc6/psoc6_sdk/libs/TARGET_CY8CEVAL-062S2-LAI-4373M2
+	url = https://github.com/Infineon/TARGET_CY8CEVAL-062S2-LAI-4373M2
+	platforms = infineon
 [submodule "p6/freertos"]
 	path = third_party/infineon/psoc6/psoc6_sdk/libs/freertos
 	url = https://github.com/Infineon/freertos

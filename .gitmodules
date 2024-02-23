@@ -330,3 +330,4 @@
 [submodule "p6/cat1cm0p"]
 	path = third_party/infineon/psoc6/psoc6_sdk/libs/cat1cm0p
 	url = https://github.com/Infineon/cat1cm0p.git
+	platforms = infineon

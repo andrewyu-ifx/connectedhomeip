@@ -96,11 +96,6 @@
 	path = third_party/infineon/psoc6/psoc6_sdk/libs/abstraction-rtos
 	url = https://github.com/Infineon/abstraction-rtos
 	platforms = infineon
-[submodule "p6/bluetooth-freertos"]
-	path = third_party/infineon/psoc6/psoc6_sdk/libs/bluetooth-freertos
-	url = https://github.com/Infineon/bluetooth-freertos
-	branch  = v2.X
-	platforms = infineon
 [submodule "p6/btstack"]
 	path = third_party/infineon/psoc6/psoc6_sdk/libs/btstack
 	url = https://github.com/Infineon/btstack
@@ -132,10 +127,6 @@
 [submodule "p6/mtb-pdl-cat1"]
 	path = third_party/infineon/psoc6/psoc6_sdk/libs/mtb-pdl-cat1
 	url = https://github.com/Infineon/mtb-pdl-cat1
-	platforms = infineon
-[submodule "p6/psoc6cm0p"]
-	path = third_party/infineon/psoc6/psoc6_sdk/libs/psoc6cm0p
-	url = https://github.com/Infineon/psoc6cm0p
 	platforms = infineon
 [submodule "p6/whd-bsp-integration"]
 	path = third_party/infineon/psoc6/psoc6_sdk/libs/whd-bsp-integration
@@ -332,3 +323,10 @@
 	path = third_party/infineon/psoc6/psoc6_sdk/libs/cmsis
 	url = https://github.com/Infineon/cmsis.git
 	platforms = infineon
+[submodule "p6/btstack-integration"]
+	path = third_party/infineon/psoc6/psoc6_sdk/libs/btstack-integration
+	url = https://github.com/Infineon/btstack-integration.git
+	platforms = infineon
+[submodule "p6/cat1cm0p"]
+	path = third_party/infineon/psoc6/psoc6_sdk/libs/cat1cm0p
+	url = https://github.com/Infineon/cat1cm0p.git

@@ -56,7 +56,7 @@ const cybt_platform_config_t bt_platform_cfg_settings =
                 .uart_rts_pin = CYBSP_BT_UART_RTS,
                 .uart_cts_pin = CYBSP_BT_UART_CTS,
 
-                .baud_rate_for_fw_download = 3000000,
+                .baud_rate_for_fw_download = 115200,
                 .baud_rate_for_feature     = 115200,
 
                 .data_bits = 8,

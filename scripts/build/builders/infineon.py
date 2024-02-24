@@ -70,7 +70,8 @@ class InfineonBoard(Enum):
     def GnArgName(self):
         if self == InfineonBoard.PSOC6BOARD:
             #return 'CY8CKIT-062S2-43012'
-            return 'CY8CEVAL-062S2-LAI-4373M2'
+            #return 'CY8CEVAL-062S2-LAI-4373M2'
+            return 'CY8CEVAL-062S2-CYW955513SDM2WLIPA'
 
 
 class InfineonBuilder(GnBuilder):
